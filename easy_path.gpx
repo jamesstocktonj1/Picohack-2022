@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version 5fff1eec69d30ba1f0e3b6d99fd3ec50ff7e9ca5" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2022-10-01T18:33:59Z</time></metadata>
+<wpt lat="50.861715" lon="-1.453104"> <name>continue</name></wpt>
+<wpt lat="50.847303" lon="-1.451507"> <name>arrive at destination</name></wpt>
+<rte>
+<rtept lat="50.861715" lon="-1.453104"><extensions><gh:distance>1606.5</gh:distance><gh:time>99716</gh:time><gh:direction>S</gh:direction><gh:azimuth>176.0</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="50.847303" lon="-1.451507"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+</gpx>

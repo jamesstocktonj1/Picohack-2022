@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "picohack-2022"
+version = "0.1.0"
+description = "Tells you how fast the road is for a GPS near a small town"
+authors = ["Edwin Shepherd <shardros@gmail.com>"]
+license = "BSD-3"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.1"
+autopep8 = "^1.7.0"
+matplotlib = "^3.6.0"
+numpy = "1.19.5"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.15.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
