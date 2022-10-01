@@ -65,33 +65,26 @@ class Road:
         return lineLen
 
     def analyse(self):
-        average_coverage = [10, 20, 500, 1000] 
+        average_quality = 200
+        bend_threshold = 0
 
+        # point = [startPoint, endPoint, bendIndex]
+        significant_points = []
 
+        for d, i in zip(self.data, range(len(self.data) - average_quality)):
 
-        pass
+            if (i % average_quality) == 0:
+                significant_points.append(self.bend_index(i, i+average_quality))
+
+        return sum(significant_points) / len(significant_points)
 
     def show(self):
         road_fig = plt.subplot(1, 1, 1)
 
-        data_diff = 200
-
-        #xData = list(d[0] for d in self.data)
-        #yData = list(d[1] for d in self.data)
-        xData = []
-        yData = []
-
-        for d, i in zip(self.data, range(len(self.data[:len(self.data) - (data_diff + 1)]))):
-            xData.append(d[0])
-            yData.append(d[1])
-            if (i % data_diff) == 0:
-                m, n = self.bend_point(i, i+data_diff)
-                mn = self.bend_index(i, i+data_diff)
-
-                road_fig.plot([m[0], n[0]], [m[1], n[1]], color='green')
-                road_fig.plot([self.data[i][0], self.data[i+data_diff][0]], [self.data[i][1], self.data[i+data_diff][1]], color='red')
-
-                road_fig.annotate("Index: {}".format(mn), m)
+        xData = list(d[0] for d in self.data)
+        yData = list(d[1] for d in self.data)
+        bendData = self.analyse()
+        print(bendData)
 
         road_fig.plot(xData, yData)
         road_fig.set(xlim=(min(xData), max(xData)), ylim=(min(yData), max(yData)))
