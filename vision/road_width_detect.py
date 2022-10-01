@@ -44,7 +44,7 @@ def draw_lines(img, lines, color=[255, 0, 0], thickness=3):
 
 
 if __name__ == "__main__":
-    image = cv2.imread("C:/Users/edwin/Documents/uni/fun/vision/4.png")
+    image = cv2.imread("C:/Users/edwin/Documents/uni/fun/vision/5.png")
     # get dimensions of image
     dimensions = image.shape
 
@@ -54,33 +54,20 @@ if __name__ == "__main__":
     channels = image.shape[2]
 
     region_of_interest_vertices = [
-        (0, height),
-        (width / 4, height/ 4),
-        (width*3 / 4, height / 4),
-        (width, height),
+        (0, 0),
+        (0, 300),
+        (1700, height),
+        (2500, height),
     ]
+
     grey_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     plt.figure()
     plt.imshow(grey_image)
 
-    cropped_image = region_of_interest(
-        grey_image,
-        np.array(
-            [region_of_interest_vertices],
-            np.int32
-        ),
-        channels
-    )
-
-    plt.figure()
-    plt.imshow(cropped_image)
-
-    kernel_size = 5
-    blur_gray = cv2.GaussianBlur(grey_image, (kernel_size, kernel_size), 0)
-
-    cannyed_image = cv2.Canny(grey_image, 200, 200)
-
+    cannyed_image = cv2.Canny(grey_image,
+                              100,
+                              200)
     plt.figure()
     plt.imshow(cannyed_image)
     plt.title("Canny")
@@ -94,20 +81,20 @@ if __name__ == "__main__":
         channels
     )
 
-    # plt.figure()
-    # plt.imshow(cropped_image)
+    plt.figure()
+    plt.imshow(cropped_image)
 
     lines = cv2.HoughLinesP(
         cropped_image,
-        rho=6,
-        theta=np.pi / 60,
-        threshold=4,
+        rho=5,
+        theta=np.pi / 40,
+        threshold=220,
         lines=np.array([]),
-        minLineLength=100,
-        maxLineGap=25
+        minLineLength=750,
+        maxLineGap=250
     )
 
-    line_image = draw_lines(image, lines) # <---- Add this call.plt.figure()
+    line_image = draw_lines(image, lines)
     plt.figure()
     plt.imshow(line_image)
     plt.show()
