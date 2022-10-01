@@ -23,12 +23,14 @@ EARTH_RADIUS = 6378137
 EQUATOR_CIRCUMFERENCE = 2 * pi * EARTH_RADIUS
 INITIAL_RESOLUTION = EQUATOR_CIRCUMFERENCE / 256.0
 ORIGIN_SHIFT = EQUATOR_CIRCUMFERENCE / 2.0
-GOOGLE_MAPS_API_KEY = 'KEY'
+GOOGLE_MAPS_API_KEY = 'AIzaSyD7flnHx8BxmZJJdHqGOU0usRjR7JTVcQw'
 MIN_IMAGE_SIZE = 0.05   # 5 meters
 
 ROUTE = [
     (50.853839,-1.45225),
     (50.852403,-1.452057),
+    (50.859575,-1.460752),
+    (50.859087,-1.461697),
 ]
 
 
@@ -146,11 +148,20 @@ def process_route_segment(start_cord, end_cord):
     result.save(f"final_image_{time}.png", "PNG")
     # result.show()
 
-    road_width_detect.get_road_width(numpy.array(result))
+    result = road_width_detect.get_road_sides(numpy.array(result))
+    if result is not None:
+        near, far = result
+        print(near, far)
+        near_m = pixelstolatlon(near, 0, 20)[1] * 111139/4 # Earth coordinates
+        far_m = pixelstolatlon(far, 0, 20)[1] * 111139/4 # Earth coordinates
+        print(near_m, far_m)
+        print(f"road width: {near_m - far_m}")
 
+    else:
+        print("UNABLE TO FIND ROAD")
 
 ############################################
 
 if __name__ == '__main__':
-    for i in range(0, 1):
-        process_route_segment(ROUTE[i], ROUTE[i + 1])
+    process_route_segment(ROUTE[0], ROUTE[1])
+    process_route_segment(ROUTE[2], ROUTE[3])

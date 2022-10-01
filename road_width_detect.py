@@ -43,7 +43,7 @@ def draw_lines(img, lines, color=[255, 0, 0], thickness=3):
     return img
 
 
-def get_road_width(image):
+def get_road_sides(image):
     """Takes a numpy array"""
     # height, width, number of channels in image
     height = image.shape[0]
@@ -88,14 +88,30 @@ def get_road_width(image):
         maxLineGap=250
     )
 
-
-    print(lines)
-    line_image = draw_lines(image, lines)
-
-    plt.figure()
-    plt.imshow(line_image)
     plt.show()
+    if lines is not None:
+        line_image = draw_lines(image, lines)
 
+        plt.figure()
+        plt.imshow(line_image)
+
+        plt.show()
+        print(lines)
+        far_lines = [line for line in lines if line[0][1] > 160]
+        avg_far_lines = sum(far_lines)/len(far_lines)
+
+        near_lines = [line for line in lines if line[0][1] < 160]
+        avg_near_lines = sum(near_lines)/len(near_lines)
+        print(f"{avg_near_lines[0][1]=}")
+
+
+
+        print(avg_far_lines, avg_near_lines)
+
+        return avg_far_lines[0][1], avg_near_lines[0][1]
+    else:
+        print("no lines")
+        return None
 
 if __name__ == "__main__":
     image = cv2.imread("C:/Users/edwin/Documents/uni/fun/vision/5.png")
