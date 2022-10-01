@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version 5fff1eec69d30ba1f0e3b6d99fd3ec50ff7e9ca5" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2022-10-01T16:52:07Z</time></metadata>
+<wpt lat="50.863512" lon="-1.435987"> <name>continue</name></wpt>
+<wpt lat="50.863253" lon="-1.453162"> <name>arrive at destination</name></wpt>
+<rte>
+<rtept lat="50.863512" lon="-1.435987"><extensions><gh:distance>1238.9</gh:distance><gh:time>72673</gh:time><gh:direction>NW</gh:direction><gh:azimuth>293.46</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="50.863253" lon="-1.453162"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk><name>GraphHopper Track</name><trkseg>
+<trkpt lat="50.863512" lon="-1.435987"><ele>16.83</ele><time>2022-10-01T16:52:07Z</time></trkpt>
+<trkpt lat="50.86353" lon="-1.436054"><ele>16.73</ele></trkpt>
+<trkpt lat="50.863545" lon="-1.43631"><ele>16.55</ele></trkpt>
+<trkpt lat="50.863487" lon="-1.437396"><ele>15.79</ele></trkpt>
+<trkpt lat="50.863344" lon="-1.438805"><ele>15.2</ele></trkpt>
+<trkpt lat="50.863323" lon="-1.439278"><ele>15.33</ele></trkpt>
+<trkpt lat="50.863464" lon="-1.441863"><ele>16.0</ele></trkpt>
+<trkpt lat="50.863821" lon="-1.445923"><ele>17.34</ele></trkpt>
+<trkpt lat="50.863841" lon="-1.446674"><ele>17.72</ele></trkpt>
+<trkpt lat="50.863807" lon="-1.447699"><ele>18.23</ele></trkpt>
+<trkpt lat="50.863833" lon="-1.448296"><ele>18.53</ele></trkpt>
+<trkpt lat="50.863861" lon="-1.448531"><ele>18.65</ele></trkpt>
+<trkpt lat="50.863906" lon="-1.448741"><ele>18.76</ele></trkpt>
+<trkpt lat="50.864101" lon="-1.449293"><ele>19.08</ele></trkpt>
+<trkpt lat="50.864147" lon="-1.449565"><ele>19.22</ele></trkpt>
+<trkpt lat="50.864144" lon="-1.449779"><ele>19.29</ele></trkpt>
+<trkpt lat="50.864037" lon="-1.45032"><ele>17.95</ele></trkpt>
+<trkpt lat="50.863804" lon="-1.451246"><ele>15.59</ele></trkpt>
+<trkpt lat="50.863253" lon="-1.453162"><ele>11.36</ele><time>2022-10-01T16:53:19Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>

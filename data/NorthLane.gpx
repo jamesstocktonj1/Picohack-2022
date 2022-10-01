@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version 5fff1eec69d30ba1f0e3b6d99fd3ec50ff7e9ca5" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2022-10-01T16:48:50Z</time></metadata>
+<wpt lat="50.831447" lon="-1.463221"> <name>North Lane</name></wpt>
+<wpt lat="50.862734" lon="-1.453216"> <name>arrive at destination</name></wpt>
+<rte>
+<rtept lat="50.831447" lon="-1.463221"><desc>continue onto North Lane</desc><extensions><gh:distance>3840.2</gh:distance><gh:time>238358</gh:time><gh:direction>NE</gh:direction><gh:azimuth>57.28</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="50.862734" lon="-1.453216"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk><name>GraphHopper Track</name><trkseg>
+<trkpt lat="50.831447" lon="-1.463221"><ele>9.22</ele><time>2022-10-01T16:48:50Z</time></trkpt>
+<trkpt lat="50.831542" lon="-1.462989"><ele>8.91</ele></trkpt>
+<trkpt lat="50.831948" lon="-1.461799"><ele>6.45</ele></trkpt>
+<trkpt lat="50.832367" lon="-1.460449"><ele>5.08</ele></trkpt>
+<trkpt lat="50.832722" lon="-1.459111"><ele>5.98</ele></trkpt>
+<trkpt lat="50.832815" lon="-1.458894"><ele>6.14</ele></trkpt>
+<trkpt lat="50.8329" lon="-1.458755"><ele>6.26</ele></trkpt>
+<trkpt lat="50.833038" lon="-1.458623"><ele>6.42</ele></trkpt>
+<trkpt lat="50.83393" lon="-1.458151"><ele>7.34</ele></trkpt>
+<trkpt lat="50.834164" lon="-1.457964"><ele>7.6</ele></trkpt>
+<trkpt lat="50.834324" lon="-1.457742"><ele>7.81</ele></trkpt>
+<trkpt lat="50.834535" lon="-1.457332"><ele>8.14</ele></trkpt>
+<trkpt lat="50.835198" lon="-1.455938"><ele>9.22</ele></trkpt>
+<trkpt lat="50.835417" lon="-1.455699"><ele>9.48</ele></trkpt>
+<trkpt lat="50.835574" lon="-1.455615"><ele>9.65</ele></trkpt>
+<trkpt lat="50.835726" lon="-1.455574"><ele>9.8</ele></trkpt>
+<trkpt lat="50.835957" lon="-1.455568"><ele>10.02</ele></trkpt>
+<trkpt lat="50.836474" lon="-1.455688"><ele>10.54</ele></trkpt>
+<trkpt lat="50.837507" lon="-1.45613"><ele>11.59</ele></trkpt>
+<trkpt lat="50.837673" lon="-1.456144"><ele>11.75</ele></trkpt>
+<trkpt lat="50.837889" lon="-1.456069"><ele>11.97</ele></trkpt>
+<trkpt lat="50.840189" lon="-1.454419"><ele>14.45</ele></trkpt>
+<trkpt lat="50.841365" lon="-1.453448"><ele>15.76</ele></trkpt>
+<trkpt lat="50.842425" lon="-1.452536"><ele>15.62</ele></trkpt>
+<trkpt lat="50.843309" lon="-1.451875"><ele>15.46</ele></trkpt>
+<trkpt lat="50.843778" lon="-1.451616"><ele>15.33</ele></trkpt>
+<trkpt lat="50.8448" lon="-1.45135"><ele>15.06</ele></trkpt>
+<trkpt lat="50.845363" lon="-1.45136"><ele>14.91</ele></trkpt>
+<trkpt lat="50.846395" lon="-1.451451"><ele>14.96</ele></trkpt>
+<trkpt lat="50.847174" lon="-1.451492"><ele>15.94</ele></trkpt>
+<trkpt lat="50.849283" lon="-1.45174"><ele>12.05</ele></trkpt>
+<trkpt lat="50.862734" lon="-1.453216"><ele>11.14</ele><time>2022-10-01T16:52:49Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
