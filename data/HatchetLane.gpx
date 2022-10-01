@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version 5fff1eec69d30ba1f0e3b6d99fd3ec50ff7e9ca5" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2022-10-01T16:49:27Z</time></metadata>
+<wpt lat="50.831419" lon="-1.463277"> <name>Hatchet Lane</name></wpt>
+<wpt lat="50.853384" lon="-1.499946"> <name>arrive at destination</name></wpt>
+<rte>
+<rtept lat="50.831419" lon="-1.463277"><desc>continue onto Hatchet Lane</desc><extensions><gh:distance>3715.1</gh:distance><gh:time>230591</gh:time><gh:direction>NW</gh:direction><gh:azimuth>321.89</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="50.853384" lon="-1.499946"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk><name>GraphHopper Track</name><trkseg>
+<trkpt lat="50.831419" lon="-1.463277"><ele>9.24</ele><time>2022-10-01T16:49:27Z</time></trkpt>
+<trkpt lat="50.831596" lon="-1.463497"><ele>10.12</ele></trkpt>
+<trkpt lat="50.831684" lon="-1.463644"><ele>10.46</ele></trkpt>
+<trkpt lat="50.831777" lon="-1.463849"><ele>10.89</ele></trkpt>
+<trkpt lat="50.832229" lon="-1.465119"><ele>13.35</ele></trkpt>
+<trkpt lat="50.832467" lon="-1.465831"><ele>14.7</ele></trkpt>
+<trkpt lat="50.832549" lon="-1.466207"><ele>15.31</ele></trkpt>
+<trkpt lat="50.83262" lon="-1.466945"><ele>15.53</ele></trkpt>
+<trkpt lat="50.832655" lon="-1.467851"><ele>15.8</ele></trkpt>
+<trkpt lat="50.832669" lon="-1.468538"><ele>16.0</ele></trkpt>
+<trkpt lat="50.832619" lon="-1.469865"><ele>16.39</ele></trkpt>
+<trkpt lat="50.832647" lon="-1.470398"><ele>16.55</ele></trkpt>
+<trkpt lat="50.832802" lon="-1.471176"><ele>16.79</ele></trkpt>
+<trkpt lat="50.832938" lon="-1.471593"><ele>17.29</ele></trkpt>
+<trkpt lat="50.833039" lon="-1.471809"><ele>17.64</ele></trkpt>
+<trkpt lat="50.833162" lon="-1.472025"><ele>18.01</ele></trkpt>
+<trkpt lat="50.833888" lon="-1.472803"><ele>19.8</ele></trkpt>
+<trkpt lat="50.834778" lon="-1.473804"><ele>22.04</ele></trkpt>
+<trkpt lat="50.83547" lon="-1.474421"><ele>23.66</ele></trkpt>
+<trkpt lat="50.83596" lon="-1.475087"><ele>24.98</ele></trkpt>
+<trkpt lat="50.836178" lon="-1.475332"><ele>25.53</ele></trkpt>
+<trkpt lat="50.836435" lon="-1.475571"><ele>26.14</ele></trkpt>
+<trkpt lat="50.836717" lon="-1.475797"><ele>26.73</ele></trkpt>
+<trkpt lat="50.837054" lon="-1.476026"><ele>24.5</ele></trkpt>
+<trkpt lat="50.837436" lon="-1.476237"><ele>22.04</ele></trkpt>
+<trkpt lat="50.837934" lon="-1.476439"><ele>18.91</ele></trkpt>
+<trkpt lat="50.838174" lon="-1.476584"><ele>17.35</ele></trkpt>
+<trkpt lat="50.838354" lon="-1.476731"><ele>16.12</ele></trkpt>
+<trkpt lat="50.838626" lon="-1.477022"><ele>14.21</ele></trkpt>
+<trkpt lat="50.839739" lon="-1.478593"><ele>17.08</ele></trkpt>
+<trkpt lat="50.840826" lon="-1.480207"><ele>19.12</ele></trkpt>
+<trkpt lat="50.841021" lon="-1.480655"><ele>19.59</ele></trkpt>
+<trkpt lat="50.841093" lon="-1.480913"><ele>19.83</ele></trkpt>
+<trkpt lat="50.841176" lon="-1.481368"><ele>20.24</ele></trkpt>
+<trkpt lat="50.841206" lon="-1.482162"><ele>20.93</ele></trkpt>
+<trkpt lat="50.841266" lon="-1.482633"><ele>21.35</ele></trkpt>
+<trkpt lat="50.841319" lon="-1.482898"><ele>21.59</ele></trkpt>
+<trkpt lat="50.841394" lon="-1.483111"><ele>21.8</ele></trkpt>
+<trkpt lat="50.841472" lon="-1.483256"><ele>21.76</ele></trkpt>
+<trkpt lat="50.842705" lon="-1.484226"><ele>28.43</ele></trkpt>
+<trkpt lat="50.85069" lon="-1.495583"><ele>15.07</ele></trkpt>
+<trkpt lat="50.85208" lon="-1.497647"><ele>18.56</ele></trkpt>
+<trkpt lat="50.852507" lon="-1.498325"><ele>20.06</ele></trkpt>
+<trkpt lat="50.852873" lon="-1.498954"><ele>21.4</ele></trkpt>
+<trkpt lat="50.853384" lon="-1.499946"><ele>21.84</ele><time>2022-10-01T16:53:18Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
